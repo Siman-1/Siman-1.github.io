@@ -1,25 +1,30 @@
-body{
-    background-color:whitesmoke;}
-
-header{
-    color-scheme:white;
-    border-color: red; 
-    background-color: black;
-    font-size:larger;
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-between;
+body {
+  background-color: whitesmoke;
 }
+
+header {
+  color-scheme: white;
+  border-color: red;
+  background-color: black;
+  font-size: larger;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-rule: blanchedalmond;
+}
+
 .p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.p2{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body {
+  padding: top 25px;
+  flex-direction: center;
 }
 
-body{padding: top 25px; ;}
-
-footer{
- img{float: right;}
+footer {
+  padding: 25px;
+  img {
+    float: inline-end;
+  }
 }
