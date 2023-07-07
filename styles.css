@@ -7,22 +7,22 @@ header {
   background-color: black;
   font-size: larger;
 }
-.top-bar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
-.top-bar a{
-    color: white;
+.top-bar a {
+  color: white;
 }
-.p{
+.p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
 }
 
-p2{
-    font-size: x-small;
-    font-style: italic;
+.super-small {
+  font-size: x-small;
+  font-style: italic;
 }
 
 body {
@@ -33,25 +33,56 @@ body {
 }
 
 footer {
-  padding: 25px;
-  img {
-    float: center;
-    text-align: center;
-  }
+  display: flex;
+  flex-direction: column;
 }
 
-h3{
-    background-color: black;
-    color: aliceblue;
-    border-width: 200px;
+h3 {
+  background-color: black;
+  color: white;
+  align-self: baseline;
 }
-
-aside{
-    background-color: gainsboro;
+.flex-container{
+    display: flex;
     flex-direction: column;
-
 }
 
-article a{
-color:black;
+.container-1{
+    display: flex;
+    flex-direction: column;
+    border-style: groove;
+    background-color: white;
+    color: black; 
+}
+
+.container0{
+    display: flex;
+    flex-direction: column;
+    border-style: groove;
+    background-color: white;
+    color: black; 
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  border-style: groove;
+  background-color: white;
+  color: black;
+}
+
+.container2{
+    display: row;
+    border-style: groove;
+    background-color: white;
+    color:black;
+}
+.different-text {
+font-style: italic;
+font-size:x-large;
+background-color: black;
+color: white;
+}
+
+article a {
+  color: black;
 }
